@@ -1,5 +1,6 @@
 package com.darshilpatel.bioinnovations;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    public void newActivity(View view){
+        Intent intent = new Intent(MainActivity.this,finalActivity.class);
+        startActivity(intent);
     }
 
     public void userResponded(View view) {
