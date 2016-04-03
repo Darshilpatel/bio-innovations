@@ -26,7 +26,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class PagerActivity extends AppCompatActivity {
+public class pagerActivity extends AppCompatActivity {
 
     SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
@@ -43,7 +43,8 @@ public class PagerActivity extends AppCompatActivity {
 
     static final String TAG = "PagerActivity";
 
-    int page = 0;
+    int page = 0;   //  to track page position
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -161,7 +162,7 @@ public class PagerActivity extends AppCompatActivity {
             public void onClick(View v) {
                 finish();
                 //  update 1st time pref
-                Utils.saveSharedSetting(PagerActivity.this, MainActivity.PREF_USER_FIRST_TIME, "false");
+                Utils.saveSharedSetting(pagerActivity.this, MainActivity.PREF_USER_FIRST_TIME, "false");
 
             }
         });
