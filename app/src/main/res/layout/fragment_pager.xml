@@ -15,8 +15,8 @@
             android:layout_height="192dp"
             android:layout_gravity="center"
             android:adjustViewBounds="true"
-            android:alpha="0.30"
-            android:background="@drawable/ic_flight_24dp"
+
+            android:background="@drawable/megaphone_icon"
             android:scaleType="fitCenter" />
 
 
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
-            tools:text="Page One" />
+            tools:text="Type It!" />
 
         <TextView
             style="@style/TextAppearance.AppCompat.Body1"
@@ -46,7 +46,7 @@
             android:layout_marginTop="@dimen/activity_horizontal_margin"
             android:alpha="0.7"
             android:gravity="center"
-            android:text="Add a long description here about your app's important feature."
+            android:text="Hello World"
             android:textColor="@android:color/white" />
 
 

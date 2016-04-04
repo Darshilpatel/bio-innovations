@@ -198,15 +198,14 @@ public class pagerActivity extends AppCompatActivity {
 
 
     public static class PlaceholderFragment extends Fragment {
-        /**
-         * The fragment argument representing the section number for this
-         * fragment.
-         */
+
+
+
         private static final String ARG_SECTION_NUMBER = "section_number";
 
         ImageView img;
 
-        int[] bgs = new int[]{R.drawable.ic_flight_24dp, R.drawable.ic_mail_24dp, R.drawable.ic_explore_24dp};
+        int[] bgs = new int[]{  R.drawable.emoticons_2_icon,R.drawable.megaphone_icon, R.drawable.light_bulb};
 
         public PlaceholderFragment() {
         }
@@ -232,6 +231,9 @@ public class pagerActivity extends AppCompatActivity {
 
 
             return rootView;
+
+
+
         }
 
 
