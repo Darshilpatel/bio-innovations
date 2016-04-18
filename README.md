@@ -8,5 +8,5 @@ This app is designed for patients with Autism Spectrum.
 <li>Text to speech functionality </li>
 <ul>
 
-Full list coming soon...
+
 
